@@ -13,6 +13,9 @@ created the view endpoints for project serializers
 in views.py:
 1. imported generics, permissions from rest_framework
 2. make 2 classes to perform the CRUD operations
+
+added 3 classes login logout register to handle the authentication for the client
+added 1 class for registration in serializer 
 added the path for the projects in projects/urls
 added the paths of the projects to autocad_showcase/urls.py
 add security steps in settings.py
